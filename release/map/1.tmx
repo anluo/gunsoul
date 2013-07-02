@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="63" height="25" tilewidth="36" tileheight="36">
+ <tileset firstgid="1" name="point_back" tilewidth="36" tileheight="36">
+  <image source="res/city_icon/point_back.png" width="145" height="145"/>
+ </tileset>
+ <tileset firstgid="17" name="town_racon" tilewidth="36" tileheight="36">
+  <image source="res/map/town_racon.jpg" width="2276" height="960"/>
+ </tileset>
+ <layer name="floor1" width="63" height="25">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer name="floor2" width="63" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztzrkRgDAQwECDeQw2T//VoiruCLQzylWKJEmSJOlPJpqp0pL8Em2ljXZqyS/RDjqp00h+iXbRTQ+9yS+SJCnGB89oAIk=
+  </data>
+ </layer>
+ <layer name="floor3" width="63" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAAAAAB+BhicAAE=
+  </data>
+ </layer>
+ <objectgroup name="dynamic_effect" width="63" height="25">
+  <object name="3" x="526" y="650"/>
+  <object name="4" x="639" y="653"/>
+  <object name="5" x="1161" y="528"/>
+ </objectgroup>
+ <objectgroup name="wall1" width="63" height="25"/>
+ <objectgroup name="doors" width="63" height="25"/>
+ <objectgroup name="event" width="63" height="25">
+  <object name="105" type="2" x="1977" y="457" width="163" height="172">
+   <properties>
+    <property name="always" value="1"/>
+    <property name="visible" value="1"/>
+   </properties>
+  </object>
+  <object name="103" type="2" x="1414" y="241" width="138" height="131">
+   <properties>
+    <property name="always" value="1"/>
+    <property name="count" value="3"/>
+    <property name="npc" value="103"/>
+    <property name="visible" value="1"/>
+   </properties>
+  </object>
+  <object name="20001" type="2" x="1155" y="251" width="175" height="116">
+   <properties>
+    <property name="always" value="1"/>
+    <property name="count" value="3"/>
+    <property name="npc" value="20001"/>
+    <property name="visible" value="1"/>
+   </properties>
+  </object>
+  <object name="20002" type="2" x="918" y="253" width="145" height="118">
+   <properties>
+    <property name="always" value="1"/>
+    <property name="count" value="3"/>
+    <property name="npc" value="20002"/>
+    <property name="visible" value="1"/>
+   </properties>
+  </object>
+  <object name="122" type="2" x="517" y="235" width="134" height="149">
+   <properties>
+    <property name="always" value="1"/>
+    <property name="count" value="3"/>
+    <property name="npc" value="122"/>
+    <property name="visible" value="1"/>
+   </properties>
+  </object>
+  <object name="20003" type="2" x="720" y="260" width="137" height="113">
+   <properties>
+    <property name="always" value="1"/>
+    <property name="count" value="3"/>
+    <property name="npc" value="20003"/>
+    <property name="visible" value="1"/>
+   </properties>
+  </object>
+  <object name="100" type="2" x="1646" y="235" width="163" height="172">
+   <properties>
+    <property name="always" value="1"/>
+    <property name="visible" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="npc_point" width="63" height="25">
+  <object name="112" x="323" y="345"/>
+  <object name="111" x="120" y="347"/>
+  <object name="20003" x="788" y="309"/>
+  <object x="1017" y="405" height="1"/>
+  <object name="122" x="578" y="283"/>
+  <object name="20002" x="995" y="312"/>
+  <object name="20001" x="1234" y="295"/>
+  <object name="114" x="1694" y="326"/>
+  <object name="115" x="1898" y="345"/>
+  <object name="103" x="1480" y="280"/>
+  <object name="105" x="2055" y="528"/>
+  <object name="116" x="2134" y="365"/>
+  <object name="100" x="1730" y="316"/>
+ </objectgroup>
+ <objectgroup name="revive" width="63" height="25" visible="0"/>
+ <objectgroup name="born" width="63" height="25" visible="0">
+  <object name="119" type="出生点" x="1237" y="356" width="36" height="33"/>
+ </objectgroup>
+ <layer name="set" width="63" height="25" visible="0" opacity="0.6">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAAAAAB+BhicAAE=
+  </data>
+ </layer>
+ <objectgroup name="ai_guides" width="63" height="25" visible="0"/>
+ <objectgroup name="dynamic_display" width="63" height="25" visible="0"/>
+ <objectgroup color="#ff55ff" name="logic_collision" width="63" height="25">
+  <object x="0" y="0" width="2268" height="216"/>
+  <object x="0" y="216" width="432" height="72"/>
+  <object x="0" y="288" width="36" height="612"/>
+  <object x="36" y="828" width="2232" height="72"/>
+  <object x="2232" y="216" width="36" height="612"/>
+ </objectgroup>
+</map>
